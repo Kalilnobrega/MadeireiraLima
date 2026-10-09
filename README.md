@@ -28,7 +28,12 @@ Os itens marcados com `⚠️ PLACEHOLDER` ainda são provisórios. Enquanto hou
 provisórios, o console do navegador mostra um aviso listando o que falta.
 
 Textos fixos de SEO (`<title>`, `meta description`, Open Graph) ficam no `<head>` do
-`index.html`. Quando o site tiver domínio, troque `og:image` por uma URL absoluta.
+`index.html`.
+
+## Publicação
+
+O site é publicado pelo GitHub Pages a cada `git push` na branch `main`, no domínio
+https://madeireiralima.com.br (arquivo `CNAME`; DNS na Hostinger).
 
 ## Estrutura
 
